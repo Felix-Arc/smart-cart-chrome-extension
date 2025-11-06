@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { 
+            width: 400px; 
+            margin: 0; 
+            padding: 15px; 
+            font-family: Arial, sans-serif;
+            background: #1a1a1a;
+            color: #e0e0e0;
+        }
+        h3 {
+            color: #ffffff;
+            margin-top: 0;
+        }
+        h4 {
+            color: #ffffff;
+        }
+        #saveBtn { 
+            width: 100%; 
+            padding: 12px; 
+            background: #2d2d2d; 
+            color: #ffffff; 
+            border: 1px solid #404040;
+            border-radius: 8px; 
+            cursor: pointer; 
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            transition: background 0.2s ease;
+        }
+        #saveBtn:hover {
+            background: #3d3d3d;
+        }
+        #status {
+            padding: 8px;
+            margin: 8px 0;
+            border-radius: 4px;
+            text-align: center;
+            font-size: 13px;
+            background: #2a2a2a;
+            border: 1px solid #404040;
+            color: #ffffff;
+        }
+        #list {
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        #list::-webkit-scrollbar {
+            width: 8px;
+        }
+        #list::-webkit-scrollbar-track {
+            background: #2a2a2a;
+            border-radius: 4px;
+        }
+        #list::-webkit-scrollbar-thumb {
+            background: #555;
+            border-radius: 4px;
+        }
+        #list::-webkit-scrollbar-thumb:hover {
+            background: #666;
+        }
+        .delete-btn:hover {
+            background: #666666 !important;
+        }
+        a {
+            color: #66b3ff !important;
+        }
+        a:hover {
+            text-decoration: underline !important;
+            color: #80c7ff !important;
+        }
+        .empty-message {
+            color: #888;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h3>Mein Warenkorb</h3>
+    <button id="saveBtn">PRODUKT SPEICHERN</button>
+    <div id="status"></div>
+    <div id="list"></div>
+    <script src="popup.js"></script>
+</body>
+</html>
