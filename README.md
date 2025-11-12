@@ -5,7 +5,7 @@ A simple browser extension for saving and managing product pages.
 ## 📦 Installation
 
 ### Step 1: Download the Extension
-- Click on Release and dowload the zip file
+- Click on the file and dowload the zip file
 ### Step 2: Extract ZIP File
 - Download the ZIP file
 - Extract it to a folder of your choice
